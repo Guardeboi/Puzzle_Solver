@@ -1,0 +1,5 @@
+if(EXISTS "/workspaces/cs225_code/cs225git/mp_puzzle/build/test-b12d07c_tests.cmake")
+  include("/workspaces/cs225_code/cs225git/mp_puzzle/build/test-b12d07c_tests.cmake")
+else()
+  add_test(test_NOT_BUILT-b12d07c test_NOT_BUILT-b12d07c)
+endif()
